@@ -145,21 +145,6 @@
         "title":  "Learning Episodes 13 and 14 | September 9, 10, and 11, 2026",
         "groups":  [
                        {
-                           "title":  "GMRC Period",
-                           "images":  [
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0181.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0182.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0183.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0184.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0185.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0186.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1176.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1179.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1181.jpg",
-                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1190.jpg"
-                                      ]
-                       },
-                       {
                            "title":  "Mathematics Period",
                            "images":  [
                                           "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/Mathematics%20Period/att.pRFWPm8Sc2vAhvTzeUxMVJULHtnl22QaPflGZzufawE.jpg",
@@ -190,6 +175,21 @@
                                           "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/Mathematics%20Period/IMG_1173.jpg",
                                           "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/Mathematics%20Period/IMG_1174.jpg",
                                           "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/Mathematics%20Period/IMG_1175.jpg"
+                                      ]
+                       },
+                       {
+                           "title":  "GMRC Period",
+                           "images":  [
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0181.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0182.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0183.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0184.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0185.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/DateStamper_0186.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1176.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1179.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1181.jpg",
+                                          "Documentation/Optimized/Learning%20Episodes%2013%20and%2014%20_%20September%209%2C%2010%2C%20and%2011%2C%202026/GMRC%20Period/IMG_1190.jpg"
                                       ]
                        },
                        {

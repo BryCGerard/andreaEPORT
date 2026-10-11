@@ -71,7 +71,7 @@
       <ul class="nav-list wrap">
         <li><a class="nav-link is-active" href="#home">Home</a></li>
         <li><a class="nav-link" href="#introduction">Introduction</a></li>
-        <li><a class="nav-link" href="#biography">Field Student (FSS) Biography</a></li>
+        <li><a class="nav-link" href="#biography">Field Study Student (FSS) Biography</a></li>
         <li><a class="nav-link" href="#philosophy">Philosophy of Teaching &amp; Learning: Pre and Post Field Study</a></li>
         <li><a class="nav-link" href="#activities">Compilation of Field Study Worksheet Activities</a></li>
         <li><a class="nav-link" href="#evidence">Evidence of Learning</a></li>
@@ -87,7 +87,7 @@
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-inner wrap">
         <div class="hero-content">
-          <p class="eyebrow">Field Study 1 E-Portfolio · October 2026</p>
+          <p class="eyebrow">Field Study 1 · E-Portfolio · October 2026</p>
           <h1 id="hero-title">ANDREA V.<br>ROMANILLOS</h1>
           <p class="hero-role">Field Study Student</p>
           <div class="hero-institution">
@@ -103,7 +103,7 @@
             <p>Daet, Camarines Norte</p>
             <p class="hero-placement-label">Cooperating School</p>
           </div>
-          <a class="button button-light hero-actions" href="#introduction">Explore the portfolio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+          <a class="button button-light hero-actions" href="#introduction">Explore the E-Portfolio <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
         </div>
         <div class="hero-portrait-wrap">
           <img class="hero-portrait" src="PIC/FormalPicture.png" alt="Formal portrait of Andrea V. Romanillos" fetchpriority="high">
@@ -184,7 +184,7 @@
             <div><dt>Citizenship</dt><dd>Filipino</dd></div>
             <div><dt>Religion</dt><dd>Roman Catholic</dd></div>
             <div><dt>Parents</dt><dd>Antonio A. Romanillos and Grace V. Romanillos</dd></div>
-            <div><dt>Sibling</dt><dd>Angelica V. Romanillos</dd></div>
+    
           </dl>
         </section>
         <section class="cv-section" aria-labelledby="cv-education-title">
@@ -193,7 +193,7 @@
             <article class="cv-education-item">
               <p class="cv-level">Tertiary <span>2023–Present</span></p>
               <h4>University of Camarines Norte · Abaño Campus</h4>
-              <p>Bachelor of Secondary Education, Major in Mathematics</p>
+              <p>Bachelor of Secondary Education Major in Mathematics</p>
               <p>Daet, Camarines Norte</p>
             </article>
             <article class="cv-education-item">
@@ -443,7 +443,7 @@
         <div class="section-heading">
           <p class="section-kicker">07 · Field notes in pictures</p>
           <h2 id="documentation-title">Documentation</h2>
-          <p>A visual record of Field Study 1, from the school environment to classroom observations and learning episodes.</p>
+          <p>A Visual Record of Field Study 1, highlighting school and classroom observations, learner diversity, classroom management, teaching and learning practices, assessment, and teacher professionalism throughout Learning Episodes 1–16.</p>
         </div>
         <div class="documentation-grid" id="documentation-grid" aria-label="Documentation photo collections"></div>
       </div>
@@ -494,7 +494,7 @@
 
   <footer class="site-footer">
     <div class="footer-inner wrap">
-      <p>Field Notes · Andrea V. Romanillos · 2026–2027</p>
+      <p>Field Study 1 Observations • Andrea V. Romanillos • A.Y. 2026 - 2027 </p>
       <div class="footer-actions">
         <a href="#home">Back to top</a>
       </div>
@@ -523,10 +523,10 @@
         <button type="button" data-question="Who is Andrea?">About Andrea</button>
         <button type="button" data-question="What did she study?">Education</button>
         <button type="button" data-question="What did she learn in Field Study 1?">Field Study 1</button>
-        <button type="button" data-question="What is her teaching philosophy?">Teaching philosophy</button>
-        <button type="button" data-question="What are her future goals?">Future goals</button>
-        <button type="button" data-question="What are her quiz scores?">Quiz scores</button>
-        <button type="button" data-question="How can I view her CV?">View CV</button>
+        <button type="button" data-question="What is her teaching philosophy?">Teaching Philosophy</button>
+        <button type="button" data-question="What are her future goals?">Future Goals</button>
+        <button type="button" data-question="What are her quiz scores?">Quiz Scores</button>
+        <button type="button" data-question="How can I view her curriculum vitae?">View Curriculum Vitae</button>
       </div>
     </section>
     <button class="chat-launcher" id="chat-launcher" type="button" aria-expanded="false" aria-controls="chat-panel" aria-label="Open chat about Andrea">
@@ -775,8 +775,7 @@
       documentationViewerDialog.close();
     });
     documentationViewerDialog.addEventListener('click', event => {
-      const bounds = documentationViewerDialog.getBoundingClientRect();
-      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) documentationViewerDialog.close();
+      if (event.target === documentationViewerDialog) documentationViewerDialog.close();
     });
     documentationViewerDialog.addEventListener('close', () => documentationReturnFocus?.focus());
     documentationPrevious.addEventListener('click', () => moveDocumentationPhoto(-1));
@@ -1012,7 +1011,7 @@
         return { message: 'Hi! I’m Andrea V. Romanillos. Choose a topic and I’ll tell you about my studies or Field Study 1 experience.', href: '#biography', linkText: 'Read my biography' };
       }
       if (/\b(cv|resume|curriculum vitae)\b/.test(text)) {
-        return { message: 'You can view my CV using the View CV button in my FSS Biography section.', href: '#biography', linkText: 'Go to my FSS Biography' };
+        return { message: 'You can view my CV using the View Curriculum Vitae button in my FSS Biography section.', href: '#biography', linkText: 'Go to my FSS Biography' };
       }
       if (/\b(goal|goals|after graduation|future plan|licensure|lept)\b/.test(text)) {
         return { message: 'After graduation, I plan to take the Licensure Examination for Professional Teachers. I also hope to pursue a master’s degree and support my family.', href: '#biography', linkText: 'Read my biography' };
